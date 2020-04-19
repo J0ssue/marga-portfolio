@@ -1,0 +1,12 @@
+.base-section {
+  &__dynamic-text {
+    opacity: 0;
+    height: 0px;
+    margin: 0px;
+
+    a {
+      font-family: 'apoc-revelations-italic';
+      text-shadow: 4px 4px 6px white;
+    }
+  }
+}

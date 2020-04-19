@@ -1,0 +1,51 @@
+.navigation-dropdown {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 46px;
+  right: -52px;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.show-text {
+  animation: showText 0.3s ease-in-out forwards;
+}
+
+.hide-text {
+  animation: hideText 0.3s ease-in-out forwards;
+}
+
+.arrow-cursor:hover {
+  cursor: url('/images/cursors/arrow.cur'), auto;
+}
+
+.arrow-down-cursor:hover {
+  cursor: url('/images/cursors/down-arrow.cur'), auto;
+}
+
+.arrow-up-cursor:hover {
+  cursor: url('/images/cursors/arrow-up.cur'), auto;
+}
+
+.hand-cursor:hover {
+  cursor: url('/images/cursors/hand.cur'), auto;
+}
+
+.plus-cursor:hover {
+  cursor: url('/images/cursors/plus.cur'), auto;
+}
+
+.plus-cursor:hover {
+  cursor: url('/images/cursors/plus.cur'), auto;
+}
+
+.arrow-right-cursor:hover {
+  cursor: url('/images/cursors/right-arrow.cur'), auto;
+}
