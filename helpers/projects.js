@@ -39,7 +39,7 @@ export default {
       title: '<span class="vivaldi">P</span>ictures <span class="vivaldi">O</span>f <span class="vivaldi">A</span>n <span class="vivaldi">E</span>xhibition: <span class="vivaldi">C</span>atalogue',
       subtitle: 'EDITORIAL DESIGN   216 PAGES, 110 MM x 180 MM',
       description: 'presents the exhibition’s intention through the review of the work displayed in several interviews.The catalogue questions our agency and position through a curatorial statement and is divided into two chapters that work as an exercise on associative image-research. ♥ <a class="hand-cursor" href="https://www.instagram.com/llichtblau/" target="_blank">Lisa Lichblau</a> and <a class="hand-cursor" href="https://rong-her21.tumblr.com/" target="_blank">Rong Lian.</a>',
-      images: ['/images/projects/picture-editorial/pic-1.png']
+      images: ['/images/projects/pictures-editorial/pic-1.png']
     },
     {
       slug: 'microscopic-editorial',
