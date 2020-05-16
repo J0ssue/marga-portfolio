@@ -9,4 +9,11 @@
       text-shadow: 4px 4px 6px white;
     }
   }
+
+  .molecular-pic {
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 768px;
+    }
+  }
 }
