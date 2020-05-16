@@ -30,7 +30,7 @@
       editorial and digital design.,
     </p>
     <nuxt />
-    <footer class="flex px-8 pb-8">
+    <footer class="flex items-end px-8 pb-8 text-size">
       <div>
         <div class="relative">
           <ul
@@ -122,5 +122,11 @@ export default {
   bottom: 10px;
   opacity: 0;
   pointer-events: none;
+}
+.text-size {
+  font-size: 9px;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
 }
 </style>

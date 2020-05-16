@@ -1,10 +1,10 @@
 <template>
   <div class="px-10 flex justify-between items-end w-full text-white">
     <!-- col -->
-    <div class="flex-1">
+    <div class="flex-1 text-size">
       <div class="relative">
         <ul
-          class="main-menu absolute"
+          class="main-menu absolute text-size"
           :class="{
             'fade-down': !isMenuOpen,
             'fade-up': isMenuOpen
@@ -12,7 +12,7 @@
         >
           <li v-for="(link, i) in menu" :key="i">
             <nuxt-link
-              class="hover:text-white focus:outline-none"
+              class="hover:text-white focus:outline-none text-size"
               to=""
               @click.native="navigateTo(link.tag)"
               v-text="link.name"
@@ -23,14 +23,14 @@
       </div>
     </div>
     <!-- col -->
-    <div class="flex-1 text-center">
+    <div class="flex-1 text-center text-size">
       <div>
         <p class="nav-gray-link">contact@morais-margarida.com</p>
         <button>Contact</button>
       </div>
     </div>
     <!-- col -->
-    <div class="flex-1 text-right">
+    <div class="flex-1 text-right text-size">
       <div>
         <a
           class="block gav-gray-link"
@@ -81,5 +81,12 @@ export default {
   bottom: 10px;
   opacity: 0;
   pointer-events: none;
+}
+
+.text-size {
+  font-size: 9px;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
 }
 </style>

@@ -21,7 +21,7 @@
         'hide-text': !isDescriptionVisible
       }"
     >
-      <p class="w-3/6" v-html="settings.description" />
+      <p class="w-3/6 section-body-size" v-html="settings.description" />
     </div>
     <div>
       <VueSlickCarousel v-bind="carouselSettings">
