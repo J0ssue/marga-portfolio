@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'apoc-dark';
+  src: url('/fonts/ApocTrial-Dark.otf');
+}
+
+@font-face {
+  font-family: 'apoc-dark-italic';
+  src: url('/fonts/ApocTrial-DarkItalic.otf');
+}
+
+@font-face {
+  font-family: 'apoc-light';
+  src: url('/fonts/ApocTrial-light.otf');
+}
+
+@font-face {
+  font-family: 'apoc-light-italic';
+  src: url('/fonts/ApocTrial-lightItalic.otf');
+}
+
+@font-face {
+  font-family: 'apoc-light-sans';
+  src: url('/fonts/ApocTrial-lightSans.otf');
+}
+
+@font-face {
+  font-family: 'apoc-light-sans-italic';
+  src: url('/fonts/ApocTrial-lightSansItalic.otf');
+}
+
+@font-face {
+  font-family: 'apoc-revelations';
+  src: url('/fonts/ApocTrial-Revelations.otf');
+}
+
+@font-face {
+  font-family: 'apoc-revelations-italic';
+  src: url('/fonts/ApocTrial-RevelationsItalic.otf');
+}
+
+@font-face {
+  font-family: 'lausanne';
+  src: url('/fonts/Lausanne-Regular.otf');
+}
+
+@font-face {
+  font-family: 'vivaldi';
+  src: url('/fonts/vivaldi.ttf');
+}
+
+.vivaldi {
+  font-family: 'vivaldi';
+}
+
+.apoc-dark {
+  font-family: 'apoc-dark';
+}
+
+.apoc-dark-italic {
+  font-family: 'apoc-dark-italic';
+}
+
+.apoc-light {
+  font-family: 'apoc-light';
+}
+
+.apoc-light-italic {
+  font-family: 'apoc-light-italic';
+}
+
+.apoc-light-sans {
+  font-family: 'apoc-light-sans';
+}
+
+.apoc-light-sans-italic {
+  font-family: 'apoc-light-sans-italic';
+}
+
+.apoc-revelations {
+  font-family: 'apoc-revelations';
+}
+
+.apoc-revelations-italic {
+  font-family: 'apoc-revelations-italic';
+}
+
+.lausanne {
+  font-family: 'lausanne';
+}
+
+.base-font-size {
+  font-size: 18px;
+}
+
+.hero-text {
+  font-size: 18px;
+  @media (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+.section-body-size {
+  font-size: 12px;
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
+}
+.section-title-size {
+  font-size: 17px;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.section-subtitle-size {
+  font-size: 12px;
+  @media (min-width: 768px) {
+    font-size: 13px;
+  }
+  color: #4f4f4f;
+}
+
+.italic-text-shadow {
+  text-shadow: 4px 4px 8px white, 3px 6px 13px black;
+}
+
+.gray-text {
+  color: #828282;
+}
+
+.nav-text-shadow {
+  * {
+    text-shadow: 3px 6px 13px black;
+  }
+}

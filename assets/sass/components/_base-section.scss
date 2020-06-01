@@ -1,0 +1,24 @@
+.base-section {
+  &__dynamic-text {
+    opacity: 0;
+    height: 0px;
+    margin: 0px;
+
+    a {
+      font-family: 'apoc-revelations-italic';
+      text-shadow: 4px 4px 6px white;
+    }
+  }
+
+  .molecular-pic {
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 768px;
+    }
+  }
+}
+
+.base-section .section-img {
+  height: 500px;
+  max-height: 500px;
+}

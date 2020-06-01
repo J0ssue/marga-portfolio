@@ -1,0 +1,22 @@
+.home {
+
+  &__nav-btn {
+    flex: 1;
+  }
+
+  &__nav-contact {
+    flex: 1;
+  }
+
+  &__hero-text {
+    line-height: 38px;
+    position: absolute;
+    top: 71px;
+    left: 20px;
+    @media (min-width: 768px) {
+      left: initial;
+      top: 20px;
+      right: 20px;
+    }
+  }
+}

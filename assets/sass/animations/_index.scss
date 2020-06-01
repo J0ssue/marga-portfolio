@@ -1,0 +1,86 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  to {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  to {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes showText {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin: 0px;
+  }
+
+  to {
+    opacity: 1;
+    height: initial;
+    margin-bottom: 20px;
+  }
+}
+
+@keyframes hideText {
+  from {
+    opacity: 1;
+    height: initial;
+    margin-bottom: 20px;
+  }
+
+  to {
+    opacity: 0;
+    height: 0px;
+    margin: 0px;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    bottom: 10px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  to {
+    bottom: 33px;
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    bottom: 33px;
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  to {
+    bottom: 10px;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.5s ease-in-out forwards;
+}
+.fade-down {
+  animation: fadeDown 0.5s ease-in-out forwards;
+}
