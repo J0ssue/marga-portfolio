@@ -85,7 +85,19 @@ export default {
       subtitle: 'EDITORIAL DESIGN   216 PAGES, 110 MM x 180 MM',
       description:
         'presents the exhibition’s intention through the review of the work displayed in several interviews.The catalogue questions our agency and position through a curatorial statement and is divided into two chapters that work as an exercise on associative image-research. ♥ <a class="hand-cursor" href="https://www.instagram.com/llichtblau/" target="_blank">Lisa Lichblau</a> and <a class="hand-cursor" href="https://rong-her21.tumblr.com/" target="_blank">Rong Lian.</a>',
-      images: ['/images/projects/pictures-editorial/1.png']
+      images: [
+        '/images/projects/pictures-editorial/1.png',
+        '/images/projects/pictures-editorial/2.jpg',
+        '/images/projects/pictures-editorial/3.jpeg',
+        '/images/projects/pictures-editorial/4.jpeg',
+        '/images/projects/pictures-editorial/5.jpeg',
+        '/images/projects/pictures-editorial/6.jpg',
+        '/images/projects/pictures-editorial/7.jpg',
+        '/images/projects/pictures-editorial/8.jpeg',
+        '/images/projects/pictures-editorial/9.jpg',
+        '/images/projects/pictures-editorial/10.jpeg',
+        '/images/projects/pictures-editorial/11.jpeg',
+      ]
     },
     {
       slug: 'microscopic-editorial',
@@ -116,16 +128,6 @@ export default {
         'is a booklet on archive’s navigation. Methods for organization of archives online are appropriated using algorithmic tools to make connections between images building various visual narratives.',
       images: [
         '/images/projects/algorithmic-editorial/1.png',
-        '/images/projects/algorithmic-editorial/2.jpg',
-        '/images/projects/algorithmic-editorial/3.jpeg',
-        '/images/projects/algorithmic-editorial/4.jpeg',
-        '/images/projects/algorithmic-editorial/5.jpeg',
-        '/images/projects/algorithmic-editorial/6.jpg',
-        '/images/projects/algorithmic-editorial/7.jpg',
-        '/images/projects/algorithmic-editorial/8.jpeg',
-        '/images/projects/algorithmic-editorial/9.jpg',
-        '/images/projects/algorithmic-editorial/10.jpeg',
-        '/images/projects/algorithmic-editorial/11.jpeg'
       ]
     },
     {
